@@ -28,7 +28,7 @@ A lightweight application that displays your current osu! game state in Discord 
 
 ### Quick Start (Recommended)
 
-1. Download the latest `osu-rpc.exe` from [releases](https://github.com/your-repo/releases)
+1. Download the latest `osu-rpc.exe` from releases
 2. Launch osu! and tosu
 3. Run `osu-rpc.exe`
 4. Done! Your Discord status will update automatically
@@ -128,9 +128,9 @@ Uses WebSocket connection to tosu
 Discord Rich Presence integration via discord-rpc
 
 🤝 Credits
-tosu - Real-time osu! API server
+[tosu](https://github.com/tosuapp/tosu/releases) 
 
-discord-rpc - Discord RPC library
+[discord-rpc](https://github.com/discord/discord-rpc) 
 
 📄 License
 MIT License
