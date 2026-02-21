@@ -1,0 +1,30 @@
+{
+  "name": "osu-discord-rpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "build": "pkg . --targets node18-win-x64 --output osu-rpc.exe --no-bytecode",
+    "build-min": "pkg . --targets node18-win-x64 --output osu-rpc.exe --compress GZip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/discord-rpc/**/*"
+    ],
+    "targets": ["node18-win-x64"]
+  }
+}
