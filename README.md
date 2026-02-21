@@ -71,10 +71,11 @@ const WS_V2 = "ws://127.0.0.1:24050/websocket/v2"; // default port
 ```
 🖼️ Display Example
 In Discord, you'll see:
+
 <img width="296" height="168" alt="image" src="https://github.com/user-attachments/assets/73e028f7-182a-44aa-ba2b-251301bd1405" />
 
 
-text
+
 🎵 Artist - Title [Difficulty]
 🟦300 🟩100 🟪50 ❌Miss
 ★ 6.42 | 98.76% | 456pp (FC 512) | 789x/1234x | HDHR
@@ -128,6 +129,8 @@ Uses WebSocket connection to tosu
 Discord Rich Presence integration via discord-rpc
 
 🤝 Credits
+
+
 [tosu](https://github.com/tosuapp/tosu/releases) 
 
 [discord-rpc](https://github.com/discord/discord-rpc) 
