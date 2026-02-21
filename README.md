@@ -42,17 +42,20 @@ A lightweight application that displays your current osu! game state in Discord 
    ```bash
    npm install
    ```
-   Build the .exe file:
+5.Build the .exe file:
 
 ```bash
 npm run build
 ```
-Run:
+
+6.Run:
 
 ```bash
 .\osu-rpc.exe
 ```
+
 📖 How to Use
+
 Launch osu!
 
 Launch tosu (must be running before RPC)
@@ -79,6 +82,7 @@ In Discord, you'll see:
 🎵 Artist - Title [Difficulty]
 🟦300 🟩100 🟪50 ❌Miss
 ★ 6.42 | 98.76% | 456pp (FC 512) | 789x/1234x | HDHR
+
 ⚠️ Troubleshooting
 Status not showing in Discord
 Make sure Discord is running
